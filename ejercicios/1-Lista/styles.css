@@ -1,0 +1,47 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffff3f;
+}
+
+ol {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+header {
+  /* border: 1px solid blue; */
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 1.3em;
+  font-family: "Domine", sans-serif;
+  color: #2b9348;
+  margin-bottom: 20px;
+}
+
+nav {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav > ol > li {
+  font-size: 2.5em;
+}
+
+nav > ol > ol > li > a {
+  font-size: 1.2em;
+  margin-left: 2em;
+}
+
+nav > ol > ol > li:last-child {
+  margin-bottom: 1em;
+}
