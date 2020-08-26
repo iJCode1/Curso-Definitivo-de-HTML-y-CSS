@@ -31,15 +31,29 @@ nav {
   /* border: 1px solid red; */
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  margin-top: 3em;
+  flex-wrap: wrap;
+}
+
+nav > ol {
+  margin: 0 auto;
 }
 
 nav > ol > li {
   font-size: 2.5em;
 }
 
+nav > ol > ol {
+  list-style: circle;
+}
+
+nav > ol > ol > li {
+  margin-left: 2em;
+}
+
 nav > ol > ol > li > a {
   font-size: 1.2em;
-  margin-left: 2em;
 }
 
 nav > ol > ol > li:last-child {
