@@ -59,3 +59,28 @@ nav > ol > ol > li > a {
 nav > ol > ol > li:last-child {
   margin-bottom: 1em;
 }
+
+section {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+section > h3 {
+  font-size: 2.3em;
+  text-align: center;
+  margin-bottom: 1em;
+  color: #1d3557;
+  letter-spacing: 1.2px;
+}
+
+.imagesWrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section > div > img {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 2px 10px black;
+}
