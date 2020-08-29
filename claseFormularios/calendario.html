@@ -5,32 +5,39 @@
     <meta charset="utf-8" />
     <meta name="viwport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="img/png" href="./icon/code-24px.svg" />
+    <link rel="stylesheet" href="calendario.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Proza+Libre:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h2>Calendario generado con varias etiquetas...</h2>
-    <form action="">
-      <label for="dia">
-        <span>Ingresa el Dia</span>
-        <input type="date" id="dia" name="dia" />
-      </label>
-      <label for="semana">
-        <span>Ingresa la Semana</span>
-        <input type="week" id="semana" name="semana" />
-      </label>
-      <label for="time">
-        <span>Ingresa la hora</span>
-        <input type="time" id="time" name="time" />
-      </label>
-      <input type="submit" />
-    </form>
+    <main>
+      <h2>Calendario generado con varias etiquetas...</h2>
+      <form action="">
+        <label for="dia">
+          <span>Ingresa el Dia</span>
+          <input type="date" id="dia" name="dia" />
+        </label>
+        <label for="semana">
+          <span>Ingresa la Semana</span>
+          <input type="week" id="semana" name="semana" />
+        </label>
+        <label for="time">
+          <span>Ingresa la hora</span>
+          <input type="time" id="time" name="time" />
+        </label>
+        <input type="submit" />
+      </form>
 
-    <h2>Calendario con: datetime-local</h2>
-    <form>
-      <label for="date">
-        <span>Ingrese la fecha y hora</span>
-        <input type="datetime-local" id="date" />
-      </label>
-      <input type="submit" value="Enviemoslo al infinito!" />
-    </form>
+      <h2>Calendario con: datetime-local</h2>
+      <form>
+        <label for="date">
+          <span>Ingrese la fecha y hora</span>
+          <input type="datetime-local" id="date" />
+        </label>
+        <input type="submit" class="button2" value="Enviemoslo al infinito!" />
+      </form>
+    </main>
   </body>
 </html>
