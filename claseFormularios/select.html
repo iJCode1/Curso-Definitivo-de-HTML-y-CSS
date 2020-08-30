@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iJCode - Select</title>
+  </head>
+  <body>
+    <h2>Formularios: Select en HTML</h2>
+    <main>
+      <form action="">
+        <label for="name">
+          <span>Ingresa tu nombre</span>
+          <input
+            type="name"
+            id="name"
+            name="name"
+            placeholder="Ingresa tu nombre"
+            required
+          />
+        </label>
+        <label for="pais">
+          <span>Selecciona tu Pais</span>
+          <select id="pais" name="pais" required>
+            <option value="mexico">México</option>
+            <option value="brasil">Brasil</option>
+            <option value="portugal">Portugal</option>
+            <option value="españa">España</option>
+            <option value="ecuador">Ecuador</option>
+            <option value="honduras">Honduras</option>
+            <option value="colombia">Colombia</option>
+          </select>
+        </label>
+        <label for="age">
+          <span>Ingresa tu edad</span>
+          <select name="age" id="age">
+            <option option="0-10">0-10</option>
+            <option option="11-15">11-15</option>
+            <option option="16-18">16-18</option>
+            <option option="19-25">19-25</option>
+            <option option="19-25">26+</option>
+          </select>
+        </label>
+        <input type="submit" />
+      </form>
+    </main>
+
+    <section>
+      <h2>Formularios: Select en HTML pero con Listas</h2>
+      <p>
+        < input list="cursos" > <br />
+        < datalist ><br />
+        < option > < /option > <br />
+        < /datalist >
+      </p>
+      <form action="">
+        <label for="cursos">
+          <span>Selecciona un Curso</span>
+          <input list="cursos" required name="cursos" />
+          <datalist id="cursos">
+            <option value="Curso Definitivo de HTML y CSS"></option>
+            <option value="CSS"></option>
+            <option value="Pascal"></option>
+            <option value="Java"></option>
+            <option value="JavaScript"></option>
+            <option value="React"></option>
+            <option value="Angular"></option>
+            <option value="Python"></option>
+            <option value="React Native"></option>
+            <option value="Curso de Git & GitHub"></option>
+            <option value="Fundamentos de JavaScript"></option>
+            <option value="Java Orientado a Objetos"></option>
+          </datalist>
+        </label>
+        <input type="submit" />
+      </form>
+    </section>
+  </body>
+</html>
