@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iJCode - Require & AutoComplete</title>
+  </head>
+  <body>
+    <h2>Atributos Require & AutoComplete en Formularios</h2>
+    <main>
+      <form action="">
+        <label for="email">
+          <span>Ingresa tu email</span>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            autocomplete="email"
+          />
+        </label>
+        <label for="name">
+          <span>Ingresa tu Nombre:</span>
+          <input
+            type="text"
+            placeholder="Ingresa tu nombre"
+            id="name"
+            name="name"
+            required
+            autocomplete="name"
+          />
+        </label>
+        <label for="password">
+          <span>Ingresa tu Contraseña</span>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            autocomplete="current-password"
+          />
+        </label>
+        <label for="country">
+          <span>Ingresa tu Pais</span>
+          <input
+            type="text"
+            id="country"
+            name="country"
+            placeholder="ingresa tu pais"
+            required
+            autocomplete="country"
+          />
+        </label>
+        <input type="submit" />
+      </form>
+    </main>
+  </body>
+</html>
