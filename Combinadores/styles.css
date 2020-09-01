@@ -32,3 +32,9 @@ div > h3 {
   color: #056676;
   font-size: 30px;
 }
+
+/* Combinador: Descendiente */
+div div p {
+  color: blue;
+  font-size: 20px;
+}
