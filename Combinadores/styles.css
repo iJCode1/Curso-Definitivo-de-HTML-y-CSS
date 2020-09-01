@@ -1,4 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Combinadores en CSS */
+
+/* 
+  Combinador de hermano adyacente o Cercano.
+  Se utiliza el simbolo ( + )
+*/
+
 h2 + p {
   color: blueviolet;
   text-decoration: underline;
+}
+
+/* Combinador: General Sibling (Hermano General) ~ */
+/* Este combinador aplicara los estilos a los hermanos generales, sin importar la posicion, solo que sean hijos del mismo padre */
+
+section > h3 ~ p {
+  color: #1a1a2e;
+  background-color: #d6e0f0;
+  border-radius: 2px;
+  font-size: 40px;
 }
