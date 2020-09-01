@@ -24,3 +24,11 @@ section > h3 ~ p {
   border-radius: 2px;
   font-size: 40px;
 }
+
+/* Combinador: Child (Hijo) */
+/* Este combinador selecciona a los hijos del elemento indicado, se representa con el simbolo ( > ) */
+
+div > h3 {
+  color: #056676;
+  font-size: 30px;
+}
