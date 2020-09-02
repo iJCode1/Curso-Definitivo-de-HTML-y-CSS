@@ -1,0 +1,23 @@
+/* 
+    La medida de rem es una de las mas usadas ya que el tamaño de esta dependera unicamente de la etiqueta html.
+    Se recomienda definir el tamaño de la etiqueta html con un font-size: 62.5% para que asi ....
+    1rem = 10px. De esta manera nos sera mas facil trabajar con las medidas dentro del proyecto.
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  font-size: 1.6rem;
+}
+
+.main div {
+  font-size: 1.6rem;
+}
