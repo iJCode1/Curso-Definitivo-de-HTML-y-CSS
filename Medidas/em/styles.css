@@ -1,0 +1,14 @@
+/* 
+  Lo que hace la medida em, es tomar el tamaño de fuente de su padre.
+  Si su padre tiene un tamaño de fuente de 20px eso definira que... 1em= 20px;
+  El problema de usar em es que si hay contenedores que engloben a otros elementos. Estos
+  nuevos elementos cambiaran su valor por que ahora 1 em sera el valor de la fuente del padre.
+*/
+
+.main {
+  font-size: 1.5em;
+}
+
+.main div {
+  font-size: 1.5em;
+}
