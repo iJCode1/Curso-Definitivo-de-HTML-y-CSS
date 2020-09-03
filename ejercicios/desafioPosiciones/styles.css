@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  margin: 0 auto;
+  margin-top: 8rem;
+  background-color: #edcfa9;
+  border: 2px solid #290001;
+  border-radius: 2.5rem;
+  width: 500px;
+  height: 500px;
+  box-shadow: 12px 4px 11px #c87941;
+}
+
+main > section {
+  background-color: #d57149;
+  width: 70%;
+  height: 25%;
+  margin: 0 auto;
+  position: relative;
+  top: -35rem;
+  border: 3px solid #290001;
+}
+
+main > p {
+  font-size: 2rem;
+  text-align: justify;
+  position: relative;
+  bottom: -13rem;
+  padding: 0rem 2rem;
+}
+
+main > section > p {
+  font-size: 6rem;
+  text-align: center;
+  color: #350102;
+  line-height: 93px;
+}
+
+figure {
+  position: relative;
+  top: 110px;
+  text-align: center;
+}
+
+figure > img {
+  width: 200px;
+}
