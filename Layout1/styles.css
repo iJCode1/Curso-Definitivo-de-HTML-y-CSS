@@ -50,9 +50,40 @@ nav > ol > li:last-child {
 }
 
 main {
-  height: 94vh;
+  height: 542px;
   width: 100%;
   background-color: #59405c;
+}
+
+main > .cards {
+  background-color: #ff4b5c;
+  width: 20%;
+  height: inherit;
+  position: absolute;
+}
+
+.card {
+  background-color: #eb8f8f;
+  width: 80%;
+  height: 20%;
+  margin-top: 10px;
+  margin: 2.2rem auto;
+  border-radius: 1rem;
+}
+
+.paragraph {
+  width: 80%;
+  height: 542px;
+  background-color: #8d93ab;
+  position: absolute;
+  right: 0;
+  font-size: 3rem;
+}
+
+.paragraph p {
+  text-align: justify;
+  width: 80%;
+  margin: 4rem auto;
 }
 
 footer {
