@@ -19,6 +19,8 @@ html {
 .block {
   height: 60px;
   background-color: #87556f;
+  width: 350px;
+  margin-bottom: 2rem;
 }
 
 .block > p {
