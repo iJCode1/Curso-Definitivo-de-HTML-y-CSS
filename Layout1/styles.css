@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: #322f3d;
+  width: 100vw;
+  height: 5rem;
+}
+
+header > figure {
+  display: inline-block;
+  height: inherit;
+}
+
+nav {
+  display: inline-block;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+nav > ol {
+  list-style: none;
+}
+
+nav > ol > li {
+  font-size: 1.6rem;
+  display: inline-block;
+  margin: 0rem 1rem;
+  color: white;
+  line-height: 5rem;
+}
+
+main {
+  height: 90vh;
+  width: 100vw;
+  background-color: #59405c;
+}
+
+footer {
+  background-color: #222831;
+  width: 100vw;
+  height: 8vh;
+  line-height: 8vh;
+}
+
+footer > ol {
+  display: inline-block;
+  height: inherit;
+}
+
+footer > ol > li {
+  color: white;
+  display: inline-block;
+}
+
+.footer_icon {
+  background-image: url("./images/logo-css3.svg");
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid red;
+  display: inline-block;
+}
+
+footer > ol > .facebook {
+  background-image: url("./images/logo-facebook.svg");
+  border: 1px solid red;
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+
+footer > ol > .twitter {
+  background-image: url("./images/logo-twitter.svg");
+  border: 1px solid red;
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+}
+
+footer > ol > .youtube {
+  background-image: url("./images/logo-youtube.svg");
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid red;
+}
