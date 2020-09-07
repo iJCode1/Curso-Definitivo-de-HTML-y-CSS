@@ -63,7 +63,7 @@ aside {
 section {
   background-color: #8d93ab;
   width: 80%;
-  height: inherit;
+  max-height: inherit;
 }
 
 section > .paragraphs {
