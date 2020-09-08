@@ -1,0 +1,19 @@
+header {
+  height: 150px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header > figure > img {
+  width: 25rem;
+}
+
+header > nav > ol > li {
+  font-size: 4rem;
+  margin: 0rem 2rem;
+}
+
+.profile-description > p {
+  font-size: 4rem;
+}
