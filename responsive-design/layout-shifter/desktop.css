@@ -1,0 +1,35 @@
+header {
+  height: 70px;
+}
+
+header > figure > img {
+  width: 11rem;
+}
+
+main {
+  width: 50%;
+  height: inherit;
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 30%;
+}
+
+.profileWrap {
+  width: 70%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+.points {
+  width: 50%;
+  height: 40%;
+  margin: auto 5rem;
+}
