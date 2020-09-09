@@ -78,7 +78,7 @@ main {
 .profile-description > p {
   font-size: 1.6rem;
   margin-top: 1rem;
-  line-height: 2.4rem;
+  line-height: 2.5rem;
   padding: 0 1.8rem;
 }
 
@@ -86,20 +86,20 @@ main {
   margin-top: 2rem;
   width: 100%;
   height: 3.5rem;
-}
-
-.social > p {
-  background-image: url("./images/twitter.png");
-  background-size: 2.2rem;
-  background-repeat: no-repeat;
-  background-position-x: 2rem;
-  background-position-y: 0.6rem;
-  font-size: 1.8rem;
-  color: var(--color-blue);
-  height: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.social > figure {
+  display: inline-block;
+}
+
+.social > p {
+  font-size: 1.8rem;
+  color: var(--color-blue);
+  display: inline-block;
+  margin-left: 0.7rem;
 }
 
 .points {
@@ -148,6 +148,8 @@ main {
 /* -------------- Footer ------------------- */
 
 footer {
+  position: fixed;
+  bottom: 0px;
   background-color: #1b262c;
   width: 100%;
   height: 3rem;
