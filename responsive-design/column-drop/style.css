@@ -10,6 +10,8 @@ html {
 
 .container {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box {

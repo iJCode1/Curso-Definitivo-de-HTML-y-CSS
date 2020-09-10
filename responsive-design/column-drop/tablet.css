@@ -1,0 +1,15 @@
+.b1 {
+  order: 2;
+  width: 60%;
+}
+
+.b2 {
+  order: 1;
+  width: 40%;
+  height: 600px;
+}
+
+.b3 {
+  order: 3;
+  width: 100%;
+}
