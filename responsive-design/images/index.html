@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>iJCode - Responsive Images</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./images/logo-css3.svg"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- 
+            Para trabajar con imagenes responsivas se recomienda usar la etiqueta picture.
+            y dentro de esta indicar los diferentes tamaños dentro de las etiquetas source y el atributo media.
+            Ademas de que el orden es de mayor a menor tamaño y al final la imagen con la etiqueta img que esta pensada para mobile.
+         -->
+      <picture>
+        <source media="(min-width: 1000px)" srcset="./images/large.jpg" />
+        <source media="(min-width: 800px)" srcset="./images/medium.jpg" />
+        <img src="./images/small.jpg" alt="image" />
+        <figcaption>@Karsten116</figcaption>
+      </picture>
+    </main>
+  </body>
+</html>
