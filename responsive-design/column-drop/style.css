@@ -1,0 +1,37 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #d8b9c3;
+}
+
+.b1 {
+  height: 600px;
+  background-color: #363062;
+}
+
+.b2 {
+  height: 400px;
+  background-color: #4d4c7d;
+}
+
+.b3 {
+  height: 200px;
+  background-color: #827397;
+}
